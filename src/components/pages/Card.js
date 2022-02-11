@@ -7,8 +7,7 @@ function Card(props) {
         <img
           src={props.data1.src}
           className="card-img-top"
-          alt="..."
-          className="img-fluid"
+          className="img-fluid "
         />
         <div className="card-body">
           <h5 className="card-title">{props.data1.title}</h5>
