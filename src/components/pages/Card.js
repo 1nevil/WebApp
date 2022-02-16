@@ -2,8 +2,8 @@ import React from "react";
 
 function Card(props) {
   return (
-    <div className="col-sm-6  mt-3 ml-3 ">
-      <div className="card col-12 col-sm-6">
+    <div className="col-sm-6  mt-3  ">
+      <div className="card col-12 col-sm-6 ml-3">
         <img
           src={props.data1.src}
           className="card-img-top"
@@ -13,7 +13,7 @@ function Card(props) {
           <h5 className="card-title">{props.data1.title}</h5>
           <p className="card-text">{props.data1.disc}</p>
           <a href={props.data1.link} className="btn btn-primary">
-            Go somewhere
+            Click to open
           </a>
         </div>
       </div>

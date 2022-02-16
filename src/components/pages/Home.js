@@ -1,4 +1,5 @@
 import React from "react";
+import laptop from "./images/laptop.png";
 
 const Home = () => {
   return (
@@ -19,11 +20,7 @@ const Home = () => {
           </ul>
         </div>
         <div className="col-10 col-sm-5 mx-auto order-2">
-          <img
-            src="./images/laptop.png"
-            alt="Laptop image"
-            class="img-fluid mt-3 "
-          />
+          <img src={laptop} alt="Laptop image" class="img-fluid mt-3 " />
         </div>
       </div>
     </div>
